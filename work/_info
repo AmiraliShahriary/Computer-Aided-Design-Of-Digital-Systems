@@ -1,0 +1,268 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vadder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1729264296
+!i10b 1
+!s100 gCm[XSFhB:2e8?ChfI4_k1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IcYNSmX>P21@<=?haBX_]N1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Amirali/Desktop/cad
+w1729264245
+8C:/Users/Amirali/Desktop/cad/adder.sv
+FC:/Users/Amirali/Desktop/cad/adder.sv
+!i122 13
+L0 1 8
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1729264296.000000
+!s107 C:/Users/Amirali/Desktop/cad/adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Amirali/Desktop/cad/adder.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vcomparator_eq
+R0
+!s110 1729264297
+!i10b 1
+!s100 `E>S^OKB>jb=8JI9P8]cn0
+R2
+Ianm@8]HdNEZik6n8Vf;>@3
+R3
+S1
+R4
+w1729264292
+8C:/Users/Amirali/Desktop/cad/Commprator.sv
+FC:/Users/Amirali/Desktop/cad/Commprator.sv
+!i122 15
+L0 1 9
+R5
+r1
+!s85 0
+31
+!s108 1729264297.000000
+!s107 C:/Users/Amirali/Desktop/cad/Commprator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Amirali/Desktop/cad/Commprator.sv|
+!i113 1
+R7
+R8
+vCounterA
+R0
+R1
+!i10b 1
+!s100 6bMN[GT0MLJ3<g3gE2YQc1
+R2
+I?jPk@L0^Sd?ajdW^gYXJz1
+R3
+S1
+R4
+Z9 w1729263754
+8C:/Users/Amirali/Desktop/cad/CounterA.sv
+FC:/Users/Amirali/Desktop/cad/CounterA.sv
+!i122 11
+Z10 L0 1 15
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Amirali/Desktop/cad/CounterA.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Amirali/Desktop/cad/CounterA.sv|
+!i113 1
+R7
+R8
+n@counter@a
+vCounterB
+R0
+R1
+!i10b 1
+!s100 4FP@IeKM@64NY^Z5:ioI;2
+R2
+IAiJIGbW<PI4g7H=RgKnMh2
+R3
+S1
+R4
+w1729263790
+8C:/Users/Amirali/Desktop/cad/CounterB.sv
+FC:/Users/Amirali/Desktop/cad/CounterB.sv
+!i122 12
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Amirali/Desktop/cad/CounterB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Amirali/Desktop/cad/CounterB.sv|
+!i113 1
+R7
+R8
+n@counter@b
+vInputRAM
+R0
+!s110 1729264295
+!i10b 1
+!s100 >mhI5f@MeBWEl2fRCDjVB1
+R2
+I8;N?`o?em>a>K]:6NYVL91
+R3
+S1
+R4
+w1729262774
+8C:/Users/Amirali/Desktop/cad/Ram.sv
+FC:/Users/Amirali/Desktop/cad/Ram.sv
+!i122 7
+L0 2 19
+R5
+r1
+!s85 0
+31
+Z11 !s108 1729264295.000000
+!s107 C:/Users/Amirali/Desktop/cad/Ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Amirali/Desktop/cad/Ram.sv|
+!i113 1
+R7
+R8
+n@input@r@a@m
+vMultiplier8x8
+R0
+R1
+!i10b 1
+!s100 n`Q_Q7ez1]fW>1Qf^f=zM1
+R2
+IVRnGPGoGcVkQ24O1QQ]Rb0
+R3
+S1
+R4
+R9
+8C:/Users/Amirali/Desktop/cad/Multiplier.sv
+FC:/Users/Amirali/Desktop/cad/Multiplier.sv
+!i122 10
+L0 1 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Amirali/Desktop/cad/Multiplier.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Amirali/Desktop/cad/Multiplier.sv|
+!i113 1
+R7
+R8
+n@multiplier8x8
+vOutputRAM
+R0
+R1
+!i10b 1
+!s100 iY8W_^>mTXe`@Xo69;7DZ2
+R2
+IT1>1I8?e[?<lGe5cECGMP1
+R3
+S1
+R4
+w1729263743
+8C:/Users/Amirali/Desktop/cad/Ram_output.sv
+FC:/Users/Amirali/Desktop/cad/Ram_output.sv
+!i122 8
+L0 1 20
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Amirali/Desktop/cad/Ram_output.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Amirali/Desktop/cad/Ram_output.sv|
+!i113 1
+R7
+R8
+n@output@r@a@m
+vShiftRegisterA
+R0
+!s110 1729264335
+!i10b 1
+!s100 56:l4me77WWz4<R]df9lM2
+R2
+Io4fPLDWFNNQ9keLV=5UaA3
+R3
+S1
+R4
+w1729264332
+8C:/Users/Amirali/Desktop/cad/ShiftReg_A.sv
+FC:/Users/Amirali/Desktop/cad/ShiftReg_A.sv
+!i122 16
+L0 2 24
+R5
+r1
+!s85 0
+31
+!s108 1729264335.000000
+!s107 C:/Users/Amirali/Desktop/cad/ShiftReg_A.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Amirali/Desktop/cad/ShiftReg_A.sv|
+!i113 1
+R7
+R8
+n@shift@register@a
+vShiftRegisterB
+R0
+R1
+!i10b 1
+!s100 aQ:`ZjeUR@fLWZZQdBkJl1
+R2
+IVObdd:aD0Jd_kVT>VkN9h0
+R3
+S1
+R4
+w1729263751
+8C:/Users/Amirali/Desktop/cad/ShiftReg.sv
+FC:/Users/Amirali/Desktop/cad/ShiftReg.sv
+!i122 9
+L0 1 24
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Amirali/Desktop/cad/ShiftReg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Amirali/Desktop/cad/ShiftReg.sv|
+!i113 1
+R7
+R8
+n@shift@register@b
+vsubtractor
+R0
+R1
+!i10b 1
+!s100 B]MI02:FoMSaHfAYnV^i22
+R2
+ILLldjb7n^k6;nLL37mXY33
+R3
+S1
+R4
+w1729264218
+8C:/Users/Amirali/Desktop/cad/Subtractor .sv
+FC:/Users/Amirali/Desktop/cad/Subtractor .sv
+!i122 14
+L0 3 7
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Amirali/Desktop/cad/Subtractor .sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Amirali/Desktop/cad/Subtractor .sv|
+!i113 1
+R7
+R8

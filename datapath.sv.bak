@@ -1,0 +1,19 @@
+`timescale 1ps / 1ps
+
+module InputRAM (
+    input clk,
+    input [3:0] addr,    // 4-bit address to handle 16 addresses
+    output reg [15:0] data_out
+);
+    reg [15:0] mem [0:15]; // 16*16 memory
+
+    initial begin
+
+        $readmemh("input_data.txt", mem);
+    end
+
+    always @(posedge clk) begin
+        data_out <= mem[addr]; 
+    end
+endmodule
+
