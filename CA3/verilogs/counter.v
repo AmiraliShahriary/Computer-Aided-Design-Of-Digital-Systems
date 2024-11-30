@@ -2,7 +2,8 @@ module counter #(parameter SIZE = 10) (
     input clk,  
     input rst,  
     input inc,  
-    output [SIZE-1:0] count
+    output [SIZE-1:0] count,
+    output co
 );
     wire [SIZE-1:0] current_value; 
     wire [SIZE-1:0] incremented_value;
@@ -32,4 +33,5 @@ module counter #(parameter SIZE = 10) (
     );
 
     assign count = current_value;
+    assign co = carry[SIZE];
 endmodule
