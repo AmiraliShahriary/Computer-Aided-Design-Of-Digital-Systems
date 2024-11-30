@@ -101,8 +101,6 @@ module datapath(input wire clk,input wire rst,input wire [15:0] A,input wire [15
     // counter dual
     wire cntr_dual_en1, cntr_dual_en2;
 
-    // assign cntr_dual_en1 = end_shift1 & cntr_dual_en;
-    // assign cntr_dual_en2 = end_shift2 & cntr_dual_en;
 
     And and_inst_en1 (
         end_shift1,
