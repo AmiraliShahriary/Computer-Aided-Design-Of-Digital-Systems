@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Amirali/Desktop/cadiii/trunk/trunk/trunk/sim
+vCircularBuffer
+Z1 !s110 1731010253
+!i10b 1
+!s100 1`lNDdanaaK_2>?UiH@4R2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6hfXLb;j3d7l4GRYbhzXL2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1730996278
+8../src/hdl/CircularBuffer.v
+F../src/hdl/CircularBuffer.v
+!i122 3
+L0 1 52
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1731010253.000000
+!s107 ../src/hdl/CircularBuffer.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/CircularBuffer.v|
+!i113 1
+Z7 o+acc -source
+Z8 !s92 +acc -source +define+SIM
+Z9 tCvgOpt 0
+n@circular@buffer
+vLinearBuffer
+R1
+!i10b 1
+!s100 ZA=bfG2bm:cC3775c8eb=0
+R2
+Ic2lHHC=49^_2W^i4<@5Vn2
+R3
+R0
+w1731002824
+8../src/hdl/LinearBuffer.v
+F../src/hdl/LinearBuffer.v
+!i122 2
+L0 1 56
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../src/hdl/LinearBuffer.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/LinearBuffer.v|
+!i113 1
+R7
+R8
+R9
+n@linear@buffer
+vMUX
+R1
+!i10b 1
+!s100 =NgL@zEd0U6<XDk3MDQ;c2
+R2
+IZzfk_UGCSDm1P91l93Ba90
+R3
+R0
+R4
+8../src/hdl/MUX.v
+F../src/hdl/MUX.v
+!i122 1
+L0 1 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../src/hdl/MUX.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/MUX.v|
+!i113 1
+R7
+R8
+R9
+n@m@u@x
+vRegister
+R1
+!i10b 1
+!s100 A0BLnD9E5IbS_31<C@CBJ1
+R2
+I7SBK`PLI99Va;ZN]QmQ[?1
+R3
+R0
+w1730998940
+8../src/hdl/Register.v
+F../src/hdl/Register.v
+!i122 0
+L0 1 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../src/hdl/Register.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/Register.v|
+!i113 1
+R7
+R8
+R9
+n@register
+vTB
+R1
+!i10b 1
+!s100 ^1_DLR^l[TRHlHVlfU5^e0
+R2
+IFSBAbl_zVDk=9GX8cC5FC3
+R3
+R0
+w1731010183
+8./tb/TB.v
+F./tb/TB.v
+!i122 4
+L0 6 85
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./tb/TB.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/TB.v|
+!i113 1
+R7
+!s92 +acc -source +incdir+../src/inc +define+SIM
+R9
+n@t@b
