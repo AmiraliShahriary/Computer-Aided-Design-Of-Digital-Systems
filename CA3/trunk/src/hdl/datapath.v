@@ -41,17 +41,17 @@ module datapath(input wire clk,input wire rst,input wire [15:0] A,input wire [15
         sh1_in
     );
 
-    // ShiftRegister #(
-    //     .WIDTH(16)
-    // ) sh1 (
-    //     .clk(clk),
-    //     .rst(rst),
-    //     .load(load_shift1),
-    //     .shift_en(en_shift1_),
-    //     .in(sh1_in),
-    //     .in_sh(1'b0),
-    //     .out(sh1_out)
-    // );
+    ShiftRegister #(
+        .WIDTH(16)
+    ) sh1 (
+        .clk(clk),
+        .rst(rst),
+        .load(load_shift1),
+        .shift_en(en_shift1_),
+        .in(sh1_in),
+        .in_sh(1'b0),
+        .out(sh1_out)
+    );
 
     // shift2
     wire [15:0] sh2_out;
@@ -86,17 +86,17 @@ module datapath(input wire clk,input wire rst,input wire [15:0] A,input wire [15
         sh2_insh
     );
 
-    // ShiftRegister #(
-    //     .WIDTH(16)
-    // ) sh2 (
-    //     .clk(clk),
-    //     .rst(rst),
-    //     .load(load_shift2),
-    //     .shift_en(en_shift2_),
-    //     .in(sh2_in),
-    //     .in_sh(sh2_insh),
-    //     .out(sh2_out)
-    // );
+    ShiftRegister #(
+        .WIDTH(16)
+    ) sh2 (
+        .clk(clk),
+        .rst(rst),
+        .load(load_shift2),
+        .shift_en(en_shift2_),
+        .in(sh2_in),
+        .in_sh(sh2_insh),
+        .out(sh2_out)
+    );
 
     // counter dual
     wire cntr_dual_en1, cntr_dual_en2;
@@ -113,24 +113,22 @@ module datapath(input wire clk,input wire rst,input wire [15:0] A,input wire [15
         cntr_dual_en2
     );
 
-    // Counter_dual #(
-    //     .WIDTH(4)
-    // ) cntr_dual (
-    //     .clk(clk),
-    //     .rst(rst),
-    //     .en1(cntr_dual_en1),
-    //     .en2(cntr_dual_en2),
-    //     .en_d(cntr_dual_end),
-    //     .init(4'b0000),
-    //     .co(cntr_dual_co)
-    // );
+    Counter_dual #(
+        .WIDTH(4)
+    ) cntr_dual (
+        .clk(clk),
+        .rst(rst),
+        .en1(cntr_dual_en1),
+        .en2(cntr_dual_en2),
+        .en_d(cntr_dual_end),
+        .init(4'b0000),
+        .co(cntr_dual_co)
+    );
 
     // counter3bit
     wire cntr_3bit_co;
     wire [2:0]cnt_out;
-    Counter #(
-        .WIDTH(3)
-    ) cntr_3bit (
+    counter #(3) cntr_3bit (
         .clk(clk),
         .rst(rst),
         .inc(cntr_3bit_en),
@@ -152,9 +150,7 @@ module datapath(input wire clk,input wire rst,input wire [15:0] A,input wire [15
     );
 
     // multiplier
-    mult_8x8 #(
-        .WIDTH(8)
-    ) mult (
+    mult_8x8 mult (
         sh1_out[15:8],
         sh2_out[15:8],
         multi_result

@@ -3,7 +3,7 @@ module multiplexer #(parameter WIDTH = 8) (input wire [WIDTH-1:0] A,input wire [
     genvar i;
     generate
         for (i = 0; i < WIDTH; i = i + 1) begin : mux_block
-            C1 mux_inst (
+            c1 mux_inst (
                 .A0(A[i]),
                 .A1(B[i]),
                 .SA(sel),
@@ -12,7 +12,7 @@ module multiplexer #(parameter WIDTH = 8) (input wire [WIDTH-1:0] A,input wire [
                 .SB(1'b1),
                 .S0(1'b0),
                 .S1(1'b0),
-                .F(out[i])
+                .f(out[i])
             );
         end
     endgenerate
